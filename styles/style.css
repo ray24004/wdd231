@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #174d70;
+    --secondary-color: #66301b; 
+    --dark-color: #000;
+    --font-color: #fff;
+    --font-family: sans-serif
+}
+
+body {
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+header, footer, h2 {
+    background-color: var(--primary-color);    
+    color: var(--font-color);
+}
+
+header {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-items: center;
+    align-items: center;
+}
+
+header button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+nav a {
+    color: var(--font-color);
+    text-decoration: none;
+    line-height: 4rem;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    font-weight: bolder;
+}
+
+#navButton {
+    background-color: transparent;
+    color: var(--font-color);
+    border: 0;
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 1rem;
+}
+
+section h2 {
+    border-radius: .5rem .5rem 0 0;
+    padding: .5rem;
+}
+
+#courseTypeButtons {
+    display: flex;
+    gap: .5rem;
+    padding: .5rem;
+    border-bottom: .1rem solid var(--dark-color);
+}
+
+#courseTypeButtons button {
+    flex: 1;
+    background-color: #000;
+    color: var(--font-color);
+    border: 0;
+    border-radius: .5rem;
+    padding: .3rem;
+}
+
+#courseButtons {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: .5rem;    
+}
+
+#courseButtons button {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    border: 0;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+footer {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+footer p {
+    margin: .5rem;
+}
+
+#lastModified {
+    color: yellow;
+}

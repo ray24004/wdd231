@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Test Page</title>
+    <meta name="description" content="Test page">
+    <meta name="author" content="Wesley Raymundo">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
-    <h1>Test Page</h1>
+    <header>
+        <img src="images/portrait.webp" alt="Portrait of Wesley Raymundo" width="60">
+        <h1>Wesley Raymundo</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">GitHub Profile</a>
+            <a href="#">LinkedIn</a>
+        </nav>
+        <button id="navButton">☰</button>
+    </header>
+    <main>
+        <section>
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Colombo, Brazil</h2>
+            <figure>
+                <img src="images/colombo-brazil.webp" alt="Picture of Colombo downtown">
+                <figcaption>Nossa Senhora do Rosário Square</f>
+            </figure>
+        </section>
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="courseTypeButtons">
+                <button>All</button>
+                <button>CSE</button>
+                <button>WDD</button>
+            </div>
+            <div id="courseButtons">
+                <button>CSE 110</button>
+                <button>WDD 130</button>
+                <button>CSE 111</button>
+                <button>CSE 210</button>
+                <button>WDD 131</button>
+                <button>WDD 231</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentYear">2025</span><br>
+            Wesley Raymundo<br>
+            Brazil
+            <img src="images/brazil-flag.webp" alt="Flag of Brazil" width="50">
+        </p>
+        <p id="lastModified">Last Update: 01/11/2025 11:30:00</p>
+    </footer>
 </body>
 </html>
