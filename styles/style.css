@@ -18,11 +18,14 @@ header, footer, h2 {
 }
 
 header {
-    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 4fr;
     justify-items: center;
     align-items: center;
+}
+
+header img {
+    padding: .75rem;
 }
 
 header button {
@@ -73,6 +76,7 @@ section h2 {
 
 #courseTypeButtons {
     display: flex;
+    justify-content: center;
     gap: .5rem;
     padding: .5rem;
     border-bottom: .1rem solid var(--dark-color);
@@ -80,6 +84,7 @@ section h2 {
 
 #courseTypeButtons button {
     flex: 1;
+    max-width: 200px;
     background-color: #000;
     color: var(--font-color);
     border: 0;
@@ -99,7 +104,7 @@ section h2 {
     color: var(--dark-color);
     border: 0;
     border-radius: .5rem;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 #courseButtons button.completed {
@@ -114,6 +119,11 @@ footer {
 
 footer p {
     margin: .5rem;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #lastModified {
