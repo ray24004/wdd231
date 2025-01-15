@@ -1,6 +1,7 @@
 :root {
     --primary-color: #174d70;
     --secondary-color: #66301b; 
+    --third-color: #e6edef;
     --dark-color: #000;
     --font-color: #fff;
     --font-family: sans-serif
@@ -94,11 +95,16 @@ section h2 {
 }
 
 #courseButtons button {
-    background-color: var(--secondary-color);
-    color: var(--font-color);
+    background-color: var(--third-color);
+    color: var(--dark-color);
     border: 0;
     border-radius: .5rem;
     padding: .5rem;
+}
+
+#courseButtons button.completed {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
 }
 
 footer {
