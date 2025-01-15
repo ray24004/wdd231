@@ -87,9 +87,14 @@ section h2 {
     max-width: 200px;
     background-color: #000;
     color: var(--font-color);
-    border: 0;
+    border: 1px solid var(--dark-color);
     border-radius: .5rem;
     padding: .3rem;
+}
+
+#courseTypeButtons button:hover {
+    background-color: var(--font-color);
+    color: var(--dark-color);
 }
 
 #courseButtons {

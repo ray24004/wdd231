@@ -19,6 +19,12 @@
 
     nav a {
         line-height: 3rem;
+        width: 200px;
+    }
+
+    nav a:hover {
+        background-color: var(--font-color);
+        color: var(--dark-color);
     }
 
     main {
