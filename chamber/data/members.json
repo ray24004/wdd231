@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Aurora Dynamics",
+            "address": "1234 Solar Drive, Orion City",
+            "phone": "+1 555 123 4567",
+            "url": "auroradynamics.example.com",
+            "image": "../images/aurora_logo.svg",
+            "level": 2
+        },
+        {
+            "name": "Nimbus Ventures",
+            "address": "789 Cloud Lane, Nimbus Bay",
+            "phone": "+44 20 7946 0958",
+            "url": "nimbusventures.example.com",
+            "image": "../images/nimbus_logo.svg",
+            "level": 1
+        },
+        {
+            "name": "Chronos Labs",
+            "address": "42 Timekeeper Avenue, Chronopolis",
+            "phone": "+81 3 1234 5678",
+            "url": "chronoslabs.example.com",
+            "image": "../images/chronos_logo.svg",
+            "level": 3
+        },
+        {
+            "name": "Stellar Forge",
+            "address": "456 Galactic Way, Nova Prime",
+            "phone": "+61 2 9876 5432",
+            "url": "stellarforge.example.com",
+            "image": "../images/stellar_logo.svg",
+            "level": 3
+        },
+        {
+            "name": "Vertex Innovations",
+            "address": "99 Summit Peak Road, Vertex City",
+            "phone": "+33 1 2345 6789",
+            "url": "vertexinnovations.example.com",
+            "image": "../images/vertex_logo.svg",
+            "level": 2
+        },
+        {
+            "name": "PulseCore Technologies",
+            "address": "11 Energy Loop, Core District",
+            "phone": "+91 98765 43210",
+            "url": "pulsecoretech.example.com",
+            "image": "../images/pulsecore_logo.svg",
+            "level": 2
+        },
+        {
+            "name": "Eclipse Horizons",
+            "address": "7 Eclipse Road, Umbra Valley",
+            "phone": "+49 30 987654321",
+            "url": "eclipsehorizons.example.com",
+            "image": "../images/eclipse_logo.svg",
+            "level": 1
+        }
+    ]
+}

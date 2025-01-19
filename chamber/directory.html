@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Directory</title>
         <meta name="description" content="Directory page">
@@ -19,25 +19,30 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/directory.css">
+        <link rel="stylesheet" href="styles/directory-large.css">
+
+        <script src="./scripts/directory.js" defer></script>
     </head>
     <body>
         <header>
             <img src="./images/logo.webp" alt="Logo of the Chamber of Commerce of Colombo" width="100" height="100">
             <h1>Colombo<br><small>Chamber of Commerce</small></h1>
-            <button id="darkModeButton">&#127767;</button>
-            <button id="menuButton">&#9776;</button>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
             </nav>
+            <button id="darkModeButton">&#127767;</button>
+            <button id="menuButton">&#9776;</button>
         </header>
         <main>
             <h2>Directory</h2>
-            <ul>
-                <li>Member 1</li>
-            </ul>
+            <div id="viewButtons">
+                <button id="gridButton">&#x229E; Grid</button>
+                <button id="listButton">&#x2630; List</button>
+            </div>
+            <ul id="memberList"></ul>
         </main>
         <footer>
             <p>
@@ -47,20 +52,20 @@
                 +55 41 99672 2591
             </p>
             <div id="socialLinks">
-                <a href="#">
+                <a href="http://youtube.com/" target="_blank">
                     <img src="./images/youtube.svg" alt="YouTube icon">
                 </a>
-                <a href="#">
+                <a href="https://x.com/" target="_blank">
                     <img src="./images/twitter.svg" alt="Twitter icon">
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/" target="_blank">
                     <img src="./images/linkedin.svg" alt="LinkedIn icon">
                 </a>
             </div>
             <p>
                 WDD231 Class Project <br>
                 Wesley Raymundo <br>
-                &copy;2025 Colombo Chamber of Commerce <br>
+                &copy;<span id="yearSpan"></span> Colombo Chamber of Commerce <br>
                 Last Modification: <span id="lastModificationSpan"></span>
             </p>
         </footer>

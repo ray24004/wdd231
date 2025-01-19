@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px){
+    header nav {
+        display: flex;
+        flex-direction: row;
+        gap: .25rem;
+    }
+
+    header nav a {
+        color: var(--font-dark-color);
+        padding: .5rem;
+        border-radius: 1rem;
+    }
+
+    header nav a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #memberList.list li {
+        
+        justify-content: space-between;        
+    }
+
+    #memberList.list p,
+    #memberList.list a {
+        display: block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #socialLinks {
+        flex-grow: 1;
+    }
+}
