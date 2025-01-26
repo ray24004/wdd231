@@ -9,19 +9,60 @@ main section h2 {
     text-align: center;
 }
 
+main section {
+    min-height: 200px;
+}
+
 #forecastSection p {
     padding: 1rem;
     line-height: 2rem;
     margin: 0;
 }
 
-main section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
-}
-
 #currentWeather {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    line-height: 1.5rem;
 }
 
+#currentWeather p {
+    justify-self: left;
+    margin: 0;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+#currentWeather img {
+    justify-self: right;
+}
+
+#busineses {
+    background-color: transparent;
+}
+
+#busineses h2 {
+    display: none;
+}
+
+#businesesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+#businesesGrid li {
+    list-style: none;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#forecastSection p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}

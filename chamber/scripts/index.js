@@ -82,7 +82,7 @@ const forecast1Span = document.querySelector("#forecast1");
 const forecast2Span = document.querySelector("#forecast2");
 const forecast3Span = document.querySelector("#forecast3");
 
-const businesesDiv = document.querySelector("#busineses");
+const businesesDiv = document.querySelector("#businesesGrid");
 
 get4DaysWeather(lat, lon).then(weathers => {
     temperatureSpan.innerHTML = weathers[0].temperature.toFixed(0);
@@ -103,7 +103,9 @@ get4DaysWeather(lat, lon).then(weathers => {
 
     for (let i = 0; i < 3; i++)
     {
-        forecastSpans[i].innerHTML = `${forecastDatas[i + 1].day}: ${forecastDatas[i + 1].temperature}°C`;
+        forecastSpans[i].innerHTML = `
+            <strong>${forecastDatas[i + 1].day}</strong>: ${forecastDatas[i + 1].temperature}°C
+        `;
     }
 });
 
