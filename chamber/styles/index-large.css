@@ -4,6 +4,10 @@
         margin: 0 auto;
     }
 
+    #hero > a {
+        font-size: 5rem;
+    }
+
     main h2 {
         margin: 0;
     }
@@ -15,7 +19,6 @@
     #sections {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
-        gap: 1rem;
     }
 
     #busineses {

@@ -1,5 +1,45 @@
+#hero {
+    position: relative;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+#hero > a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    text-align: right;
+    font-weight: bolder;
+    box-shadow: 0 0 1rem;
+
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#hero img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+main h1 {
+    margin: 1rem;
+}
+
 main section {
     background-color: var(--primary-color);
+    margin: 0 .5rem;
 }
 
 main section h2 {
