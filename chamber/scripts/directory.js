@@ -11,12 +11,12 @@ menuButton.addEventListener("click", e => {
     menuButton.innerHTML = headerNav.classList.contains("show") ? "X" : "&#9776;"
 });
 
-gridButton.addEventListener("click", e => {
+gridButton?.addEventListener("click", e => {
     memberList.classList.add("grid");
     memberList.classList.remove("list")
 })
 
-listButton.addEventListener("click", e => {
+listButton?.addEventListener("click", e => {
     memberList.classList.add("list");
     memberList.classList.remove("grid")
 })
@@ -40,7 +40,10 @@ async function LoadMembers() {
     });
 }
 
-LoadMembers();
+if (!!memberList)
+{
+    LoadMembers();
+}
 
 lastModificationSpan.innerHTML = document.lastModified;
 yearSpan.innerHTML = new Date().getFullYear();

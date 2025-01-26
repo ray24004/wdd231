@@ -58,10 +58,7 @@ async function get4DaysWeather(lat, lon)
 {
     const current = await getCurrentWeather(lat, lon);
     const next = await getForecast(lat, lon);
-
     const result = [current, ...next];
-    console.log(result);
-
     return result;
 }
 
