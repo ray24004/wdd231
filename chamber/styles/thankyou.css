@@ -1,0 +1,17 @@
+main {
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+main > h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#results {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}

@@ -39,6 +39,7 @@ input, select, textarea {
 
 textarea {
     height: 10rem;
+    padding: .5rem;
 }
 
 button {

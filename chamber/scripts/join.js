@@ -8,6 +8,7 @@ const membershipLevels = [
 const membershipSelect = document.querySelector("#membershipSelect");
 const membershipSection = document.querySelector("#membershipSection");
 const membershipDialogs = document.querySelector("#membershipDialogs");
+const timestampInput = document.querySelector("#timestamp");
 
 membershipLevels.forEach(level => {
     const option = document.createElement("option");
@@ -46,3 +47,4 @@ membershipLevels.forEach(level => {
     });
 });
 
+timestampInput.value = Date.now();
