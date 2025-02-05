@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Colombo Chamber of Commerce - Directory</title>
-        <meta name="description" content="Directory of the Colombo Chamber of Commerce">
+        <meta name="description" content="Join form for the Colombo Chamber of Commerce">
         <meta name="author" content="Wesley Raymundo">
 
-        <meta property="og:title" content="Directory of the Colombo Chamber of Commerce">
-        <meta property="og:description" content="Discover the member busineses">
+        <meta property="og:title" content="Join Colombo Chamber of Commerce">
+        <meta property="og:description" content="Join form for the Colombo Chamber of Commerce">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://ray24004.github.io/wdd231/chamber/images/logo.webp">
         <meta property="og:url" content="https://ray24004.github.io/wdd231/chamber">
@@ -23,8 +23,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/directory.css">
         <link rel="stylesheet" href="styles/directory-large.css">
+        <link rel="stylesheet" href="styles/join.css">
+        <link rel="stylesheet" href="styles/join-large.css">
 
         <script src="scripts/directory.js" defer></script>
+        <script src="scripts/join.js" defer></script>
     </head>
     <body>
         <header>
@@ -40,63 +43,61 @@
             <button id="menuButton">&#9776;</button>
         </header>
         <main>
-            <form action="thankyou.html" method="get">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" title="e.g.: Wesley" autocomplete="given-name" required>
-                
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" title="e.g.: Raymundo" autocomplete="family-name" required>
-                
-                <label for="organizationalTitle">Organizational Title</label>
-                <input type="text" name="organizationalTitle" title="organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$" required>
-                
-                <label for="email">Email Address</label>
-                <input type="email" name="email" title="e.g: wesley@domain.com" autocomplete="email" placeholder="wesley@domain.com" required>
-                
-                <label for="mobile">Mobile Phone Number</label>
-                <input type="tel" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel" required>
-                
-                <label for="organization">Organization Name</label>
-                <input type="text" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
-                
-                <label for="membership">Membership Level</label>
-                <select name="membership">
-                    <option value="" disabled hidden selected>Select type...</option>
-                    <option value="nonprofit">Non-profit</option>
-                    <option value="bronze">Bronze</option>
-                    <option value="silver">Silver</option>
-                    <option value="gold">Gold</option>
-                </select>
-                
-                <label for="organizationDescription">Organization Description</label>
-                <textarea name="organizationDescription" title="Brief explanation of organization's business model"></textarea>
-
-                <input type="hidden" name="timestamp" id="timestamp">
-
-                <button type="submit">Join the Chamber</button>
-            </form>
-
             <section>
-                <h2>Membership Titles</h2>
+                <h2>Membership Application</h2>
+                <form action="thankyou.html" method="get" autocomplete="on">
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" title="e.g.: Wesley" autocomplete="given-name" required>
+                    
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" title="e.g.: Raymundo" autocomplete="family-name" required>
+                    
+                    <label for="organizationalTitle">Title</label>
+                    <input type="text" name="organizationalTitle" title="Organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" title="e.g: wesley@domain.com" autocomplete="email" placeholder="wesley@domain.com" required>
+                    
+                    <label for="mobile">Phone</label>
+                    <input type="tel" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel" required>
+                    
+                    <label for="organization">Organization</label>
+                    <input type="text" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
+                    
+                    <label for="membership">Membership level</label>
+                    <select name="membership">
+                        <option value="" disabled hidden selected>Select type...</option>
+                        <option value="nonprofit">Non-profit</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                    
+                    <label for="organizationDescription">Organization description</label>
+                    <textarea name="organizationDescription" title="Brief explanation of organization's business model"></textarea>
+    
+                    <input type="hidden" name="timestamp" id="timestamp">
+    
+                    <button type="submit">Join the Chamber!</button>
+                </form>
+            </section>
+            <section id="membershipSection">
+                <h2>Membership Levels</h2>
                 <article>
                     <h3>Non-profit</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">More information...</a>
+                    <a href="#">Learn more...</a>
                 </article>
                 <article>
                     <h3>Bronze</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">More information...</a>
+                    <a href="#">Learn more...</a>
                 </article>
                 <article>
                     <h3>Silver</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">More information...</a>
+                    <a href="#">Learn more...</a>
                 </article>
                 <article>
                     <h3>Gold</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">More information...</a>
+                    <a href="#">Learn more...</a>
                 </article>
             </section>
 

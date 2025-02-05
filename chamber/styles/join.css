@@ -1,0 +1,59 @@
+main {
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 425px;
+}
+
+section > h2 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+label {
+    margin-top: 2rem;
+}
+
+input, select, textarea {
+    margin-top: .5rem;
+    height: 2rem;
+    padding: 0 .5rem;
+}
+
+textarea {
+    height: 10rem;
+}
+
+button {
+    margin: 1rem 0;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+#membershipSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+article a {
+    text-decoration: none;
+    color: var(--font-light-color);
+    background-color: var(--secondary-color);
+    padding: .75rem;
+    line-height: 3rem;
+    border-radius: 1rem;
+}

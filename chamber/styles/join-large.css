@@ -1,0 +1,13 @@
+@media (min-width: 769px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 3rem;
+        width: 90%;
+        max-width: 1024px;
+    }
+
+    section > h2 {
+        text-align: left;
+    }
+}
