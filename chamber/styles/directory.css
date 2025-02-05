@@ -51,7 +51,8 @@ header button {
 }
 
 header nav {
-    display: none;    
+    display: none;
+    z-index: 1;
 }
 
 header nav.show {
