@@ -65,12 +65,9 @@
                     <input type="text" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
                     
                     <label for="membership">Membership level</label>
-                    <select name="membership">
+                    <select name="membership" id="membershipSelect">
                         <option value="" disabled hidden selected>Select type...</option>
-                        <option value="nonprofit">Non-profit</option>
-                        <option value="bronze">Bronze</option>
-                        <option value="silver">Silver</option>
-                        <option value="gold">Gold</option>
+                        <!-- options added by script -->
                     </select>
                     
                     <label for="organizationDescription">Organization description</label>
@@ -83,68 +80,12 @@
             </section>
             <section id="membershipSection">
                 <h2>Membership Levels</h2>
-                <article>
-                    <h3>Non-profit</h3>
-                    <a href="#">Learn more...</a>
-                </article>
-                <article>
-                    <h3>Bronze</h3>
-                    <a href="#">Learn more...</a>
-                </article>
-                <article>
-                    <h3>Silver</h3>
-                    <a href="#">Learn more...</a>
-                </article>
-                <article>
-                    <h3>Gold</h3>
-                    <a href="#">Learn more...</a>
-                </article>
+                <!-- cards added by script -->
             </section>
 
-            <dialog>
-                <h2>Non-profit</h2>
-                <p>
-                    Benefits: <br>
-                    - A <br>
-                    - B <br>
-                    - C <br><br>
-
-                    Cost: $ 00.00
-                </p>
-            </dialog>
-            <dialog>
-                <h2>Bronze</h2>
-                <p>
-                    Benefits: <br>
-                    - A <br>
-                    - B <br>
-                    - C <br><br>
-
-                    Cost: $ 00.00
-                </p>
-            </dialog>
-            <dialog>
-                <h2>Silver</h2>
-                <p>
-                    Benefits: <br>
-                    - A <br>
-                    - B <br>
-                    - C <br><br>
-
-                    Cost: $ 00.00
-                </p>
-            </dialog>
-            <dialog>
-                <h2>Gold</h2>
-                <p>
-                    Benefits: <br>
-                    - A <br>
-                    - B <br>
-                    - C <br><br>
-
-                    Cost: $ 00.00
-                </p>
-            </dialog>
+            <div id="membershipDialogs">
+                <!-- dialogs added by script -->
+            </div>
         </main>
         <footer>
             <p>

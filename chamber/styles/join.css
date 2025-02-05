@@ -55,17 +55,37 @@ button {
 
 article {
     background-color: var(--primary-color);
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-radius: 1rem;
     text-align: center;
     animation: fadeIn 1.5s;
 }
 
-article a {
+article button {
     text-decoration: none;
     color: var(--font-light-color);
     background-color: var(--secondary-color);
-    padding: .75rem;
-    line-height: 3rem;
+    padding: 0 .75rem;
     border-radius: 1rem;
+}
+
+dialog {
+    width: 70%;
+    max-width: 320px;
+    text-align: center;
+    border: .25rem solid var(--secondary-color);
+    border-radius: 1rem;
+
+}
+
+dialog button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
 }
