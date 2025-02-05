@@ -6,6 +6,8 @@ const courseButtonsParent = document.querySelector("#courseButtons");
 const courseTypeButtons = document.querySelectorAll("#courseTypeButtons > button");
 const creditsCounter = document.querySelector("#creditsCounter");
 
+const dialog = document.querySelector("dialog");
+
 const courses = [
     {
         subject: "CSE",
@@ -96,6 +98,10 @@ courses.forEach(c => {
         newButton.classList.add("completed");
     }
 
+    newButton.addEventListener("click", e => {
+        displayCourseDetails(c);
+    });
+
     courseButtonsParent.appendChild(newButton)
 });
 
@@ -110,3 +116,19 @@ courseTypeButtons.forEach(b => {
 });
 
 creditsCounter.textContent = courses.reduce((total, course) => total + course.credits, 0);
+
+function displayCourseDetails(course) {
+    dialog.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Certificate:</strong> ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies:</strong> ${course.technology}</p>
+    `;
+    dialog.showModal();
+
+    const close = dialog.querySelector("button");
+    close.addEventListener("click", e => dialog.close());
+}

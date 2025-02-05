@@ -134,3 +134,22 @@ footer p {
 #lastModified {
     color: yellow;
 }
+
+dialog {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border-radius: 1rem;
+    border: 1px solid var(--secondary-color);
+    width: 300px;
+}
+
+::backdrop {
+    background-color: #000000dd;
+}
+
+dialog button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .5rem;
+}
