@@ -47,31 +47,31 @@
                 <h2>Membership Application</h2>
                 <form action="thankyou.html" method="get" autocomplete="on">
                     <label for="firstName">First name</label>
-                    <input type="text" name="firstName" title="e.g.: Wesley" autocomplete="given-name" required>
+                    <input type="text" id="firstName" name="firstName" title="e.g.: Wesley" autocomplete="given-name" required>
                     
                     <label for="lastName">Last name</label>
-                    <input type="text" name="lastName" title="e.g.: Raymundo" autocomplete="family-name" required>
+                    <input type="text" id="lastName" name="lastName" title="e.g.: Raymundo" autocomplete="family-name" required>
                     
                     <label for="organizationalTitle">Title</label>
-                    <input type="text" name="organizationalTitle" title="Organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$" required>
+                    <input type="text" id="organizationalTitle" name="organizationalTitle" title="Organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$" required>
                     
                     <label for="email">Email</label>
-                    <input type="email" name="email" title="e.g: wesley@domain.com" autocomplete="email" placeholder="wesley@domain.com" required>
+                    <input type="email" id="email" name="email" title="e.g: wesley@domain.com" autocomplete="email" placeholder="wesley@domain.com" required>
                     
                     <label for="mobile">Phone</label>
-                    <input type="tel" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel" required>
+                    <input type="tel" id="mobile" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel" required>
                     
                     <label for="organization">Organization</label>
-                    <input type="text" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
+                    <input type="text" id="organization" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
                     
-                    <label for="membership">Membership level</label>
+                    <label for="membershipSelect">Membership level</label>
                     <select name="membership" id="membershipSelect">
                         <option value="" disabled hidden selected>Select type...</option>
                         <!-- options added by script -->
                     </select>
                     
                     <label for="organizationDescription">Organization description</label>
-                    <textarea name="organizationDescription" title="Brief explanation of organization's business model"></textarea>
+                    <textarea name="organizationDescription" id="organizationDescription" title="Brief explanation of organization's business model"></textarea>
     
                     <input type="hidden" name="timestamp" id="timestamp">
     
