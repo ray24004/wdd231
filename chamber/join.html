@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Colombo Chamber of Commerce - Directory</title>
+        <title>Colombo Chamber of Commerce - Join</title>
         <meta name="description" content="Join form for the Colombo Chamber of Commerce">
         <meta name="author" content="Wesley Raymundo">
 
@@ -53,13 +53,13 @@
                     <input type="text" id="lastName" name="lastName" title="e.g.: Raymundo" autocomplete="family-name" required>
                     
                     <label for="organizationalTitle">Title</label>
-                    <input type="text" id="organizationalTitle" name="organizationalTitle" title="Organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$" required>
+                    <input type="text" id="organizationalTitle" name="organizationalTitle" title="Organizational title within your organization, minimum 7 characters only letters, dashes and spaces" autocomplete="organization-title" pattern="^[a-zA-Z-\s]{7,}$">
                     
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" title="e.g: wesley@domain.com" autocomplete="email" placeholder="wesley@domain.com" required>
                     
                     <label for="mobile">Phone</label>
-                    <input type="tel" id="mobile" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel" required>
+                    <input type="tel" id="mobile" name="mobile" title="e.g: +11 23 45678 9012" autocomplete="tel">
                     
                     <label for="organization">Organization</label>
                     <input type="text" id="organization" name="organization" title="e.g: Happy S.A." autocomplete="organization" required>
@@ -71,7 +71,7 @@
                     </select>
                     
                     <label for="organizationDescription">Organization description</label>
-                    <textarea name="organizationDescription" id="organizationDescription" title="Brief explanation of organization's business model"></textarea>
+                    <textarea name="organizationDescription" id="organizationDescription" name="organizationDescription" title="Brief explanation of organization's business model"></textarea>
     
                     <input type="hidden" name="timestamp" id="timestamp">
     
