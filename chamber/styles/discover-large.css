@@ -1,0 +1,52 @@
+@media (min-width: 641px) {
+    article {
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-areas: "heading heading"
+                             "figure description"
+                             "figure address"
+                             "button button";
+    }
+
+    article h3 {
+        grid-area: heading;
+    }
+
+    article figure {
+        grid-area: figure;
+    }
+
+    article p {
+        grid-area: description;
+    }
+
+    article address {
+        grid-area: address;
+    }
+
+    article button {
+        grid-area: button;
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        grid-template-areas: "heading heading"
+                             "visitor-info visitor-info"
+    }
+
+    h2 {
+        grid-area: heading;
+    }
+
+    aside {
+        grid-area: visitor-info;
+    }
+
+    article img {
+        transition: transform 0.3s;
+    }
+
+    article img:hover {
+        transform: scale(1.25);
+    }
+}

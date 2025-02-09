@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Parque Municipal Gruta do Bacaetava",
+      "address": "Rua Antônio Gasparin, s/n - Bacaetava, Colombo - PR, 83451-405",
+      "description": "A natural cave offering guided tours showcasing impressive rock formations and geological features.",
+      "photo_link": "images/gruta-bacaetava.webp"
+    },
+    {
+      "name": "Vinícola Franco Italiano",
+      "address": "Rua Rodolfo Camargo, 26 - Roça Grande, Colombo - PR, 83404-040",
+      "description": "A traditional winery producing award-winning wines, offering tastings and guided tours.",
+      "photo_link": "images/vinicola-franco-italiano.webp"
+    },
+    {
+      "name": "Igreja Matriz Nossa Senhora do Rosário",
+      "address": "Praça Getúlio Vargas, s/n - Centro, Colombo - PR, 83414-000",
+      "description": "A church built in 1899, replicating Italian architecture, reflecting the faith of Italian immigrants.",
+      "photo_link": "images/catedral-rosario.webp"
+    },
+    {
+      "name": "Morro da Cruz",
+      "address": "Estrada da Ribeira, km 20 - Jardim Monza, Colombo - PR, 83402-000",
+      "description": "The highest point in Colombo, offering panoramic views and hosting annual religious events.",
+      "photo_link": "images/morro-cruz.webp"
+    },
+    {
+      "name": "Casa da Cultura",
+      "address": "Rua XV de Novembro, 105 - Centro, Colombo - PR, 83414-000",
+      "description": "The former city council building, now hosting cultural exhibitions and events.",
+      "photo_link": "images/casa-cultura.webp"
+    },
+    {
+      "name": "Memorial do Imigrante Italiano – Casa Eugênio Mottin",
+      "address": "Rua Marechal Floriano Peixoto, s/n - Centro, Colombo - PR, 83414-000",
+      "description": "A relocated 1922 house representing Italian immigrants, showcasing historical artifacts.",
+      "photo_link": "images/memorial-italiano.webp"
+    },
+    {
+      "name": "Parque Municipal da Uva",
+      "address": "Rua Marechal Floriano Peixoto, 8771 - Centro, Colombo - PR, 83414-000",
+      "description": "A park hosting the annual Grape Festival, featuring facilities like trails, playgrounds, and event spaces.",
+      "photo_link": "images/parque-uva.webp"
+    },
+    {
+      "name": "Museu Municipal Cristóforo Colombo",
+      "address": "Rua XV de Novembro, 105 - Centro, Colombo - PR, 83414-000",
+      "description": "A museum housing collections from the indigenous era to the present, highlighting local history.",
+      "photo_link": "images/museu-cristoforo.webp"
+    }
+  ]
+  
