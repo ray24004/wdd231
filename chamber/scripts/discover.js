@@ -23,7 +23,7 @@ async function loadItems() {
         const article = document.createElement("article");
         article.innerHTML = `
             <h3>${item.name}</h3>
-            <figure><img src="${item.photo_link}" alt="Photo of ${item.name}" width="300" height="200"></figure>
+            <figure><img src="${item.photo_link}" alt="Photo of ${item.name}" loading="lazy" width="300" height="200"></figure>
             <p>${item.description}</p>
             <address>${item.address}</address>
             <button>Learn More</button>
