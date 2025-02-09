@@ -2,7 +2,12 @@ const main = document.querySelector("main");
 const aside = document.querySelector("aside");
 
 function updateVisitorMessage() {
-    let lastVisit = Number(localStorage.getItem("lastVisit"));
+    let lastVisit = localStorage.getItem("lastVisit");
+    if (lastVisit !== null)
+    {
+        lastVisit = Number(lastVisit);
+    }
+
     const daysFromLastVisit = Math.floor((new Date() - new Date(lastVisit)) / (1000 * 60 * 60 * 24));
     
     aside.textContent = 
@@ -22,7 +27,7 @@ async function loadItems() {
     data.forEach(item => {
         const article = document.createElement("article");
         article.innerHTML = `
-            <h3>${item.name}</h3>
+            <h2>${item.name}</h2>
             <figure><img src="${item.photo_link}" alt="Photo of ${item.name}" loading="lazy" width="300" height="200"></figure>
             <p>${item.description}</p>
             <address>${item.address}</address>
