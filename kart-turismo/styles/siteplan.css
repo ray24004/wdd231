@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #006500;
+    --secondary-color: #b00000;
+    --terciary-color: #f5f500;
+    --quaternary-color: #800080;
+    --background-color: #fdfdfd;
+    --font-color: #000000;
+    --alternate-background-color: #242627;
+    --alternate-font-color: #ffffff;
+
+    --font: "roboto", sans-serif
+}
+
+* {
+    font-family: var(--font);
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+body {
+    padding: 1rem;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--alternate-font-color);
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+figure {
+    background-color: var(--alternate-background-color);
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background-color: var(--alternate-background-color);
+    color: var(--alternate-font-color);
+    line-height: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#colorList {
+    list-style: none;
+    padding-left: 0;
+}
+
+#colorList li {
+    padding: .5rem 1rem;
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+    color: var(--alternate-font-color);
+}
+
+.secondary-color {
+    background-color: var(--secondary-color);
+    color: var(--alternate-font-color);
+}
+
+.terciary-color {
+    background-color: var(--terciary-color);
+}
+
+.quaternary-color {
+    background-color: var(--quaternary-color);
+    color: var(--alternate-font-color);
+}
+
+.background-color {
+    background-color: var(--background-color);
+}
+
+.alternate-background-color {
+    background-color: var(--alternate-background-color);
+    color: var(--alternate-font-color);
+}
+
+.alternate-font-color {
+    background-color: var(--alternate-background-color);
+    color: var(--alternate-font-color);
+}
