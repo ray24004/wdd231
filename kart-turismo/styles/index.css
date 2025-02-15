@@ -1,0 +1,58 @@
+main {
+    padding: 0;
+}
+
+figure {
+    position: relative;
+    background-color: var(--alternate-background-color);
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    filter: brightness(.5);
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    z-index: 1;
+    background-color: transparent;
+}
+
+div {
+    padding: 1rem;
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+main div > a {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--alternate-font-color);
+    border-radius: .25rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    padding: 1rem;
+}
+
+main li a {
+    display: block;
+    background-color: var(--alternate-background-color);
+    color: var(--alternate-font-color);
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+
+}
