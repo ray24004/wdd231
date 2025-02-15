@@ -11,13 +11,11 @@
     --font: "roboto", sans-serif
 }
 
-* {
+body {
     font-family: var(--font);
     background-color: var(--background-color);
     color: var(--font-color);
-}
-
-body {
+    
     padding: 1rem;
     max-width: 768px;
     margin: 0 auto;
