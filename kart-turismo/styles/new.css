@@ -1,0 +1,107 @@
+body.scrollLock {
+    overflow: hidden;
+}
+
+main {
+    display: grid;
+    gap: 1rem;
+}
+
+article {
+    background-color: var(--quaternary-color);
+    color: var(--alternate-font-color);
+    padding: 1rem;
+    border-radius: .25rem;
+    
+    display: grid;
+    grid-template-areas: 
+        "title title"
+        "date type";
+    gap: 1rem;
+
+    min-height: 6rem;
+}
+
+article h2,
+article p {
+    margin: 0;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+article h2 {
+    color: var(--alternate-font-color);
+    grid-area: title;
+}
+
+.date {
+    grid-area: date;
+}
+
+.type {
+    grid-area: type;
+    text-align: right;
+}
+
+dialog[open] {
+    width: 80%;
+    max-width: 400px;
+
+    display: grid;
+    grid-template-areas: 
+        ". button"
+        "title title"
+        "date type"
+        "content content"
+    ;
+
+    gap: 1rem;
+
+    background-color: var(--primary-color);
+    color: var(--alternate-font-color);
+    border: none;
+    box-shadow: 0 0 1rem black;
+}
+
+::backdrop {
+    background-color: var(--alternate-background-color);
+    opacity: .75;
+}
+
+dialog button {
+    grid-area: button;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+
+    background-color: transparent;
+    border: none;
+}
+
+dialog h2 {
+    grid-area: title;
+    font-size: 1.1rem;
+    margin: 1rem 0 0 0;
+    color: var(--alternate-font-color);
+}
+
+dialog .date {
+    grid-area: date;
+    margin: 0;
+}
+
+dialog .type {
+    grid-area: type;
+    margin: 0;
+    font-weight: bolder;
+}
+
+dialog .content {
+    grid-area: content;
+    margin: 0;
+    padding-top: 1rem;
+    line-height: 1.75rem;
+}
