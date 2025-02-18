@@ -1,0 +1,93 @@
+[
+    {
+      "title": "Kart Turismo Begins Development with a Bold Vision",
+      "date": "2025-02-20",
+      "type": "Development",
+      "description": "Kart Turismo officially enters development, aiming to merge kart racing and local tourism in a way never seen before. The team is focused on creating an immersive experience based on Colombo, Paraná."
+    },
+    {
+      "title": "Kart Turismo Joins GrapeTech Innovation Ecosystem",
+      "date": "2025-03-05",
+      "type": "Milestones",
+      "description": "Kart Turismo is now incubated at GrapeTech, gaining access to mentorship, networking, and funding opportunities to accelerate its development."
+    },
+    {
+      "title": "Prototyping Begins: Early Track Layouts in Unity",
+      "date": "2025-03-18",
+      "type": "Development",
+      "description": "The team is testing low-poly track layouts based on Colombo’s real roads, refining kart handling, and experimenting with race mechanics."
+    },
+    {
+      "title": "Playtesting the First Driving Prototype",
+      "date": "2025-04-02",
+      "type": "Testing",
+      "description": "The first playtest session gave valuable feedback on kart controls, track readability, and the balance between arcade-style fun and realistic city layouts."
+    },
+    {
+      "title": "First Partnership Talks with Colombo’s Tourism Office",
+      "date": "2025-04-15",
+      "type": "Partnerships",
+      "description": "Kart Turismo developers met with Secretaria de Turismo da Prefeitura de Colombo to explore collaborations that promote local tourism within the game."
+    },
+    {
+      "title": "Kart Turismo’s Business Model Takes Shape",
+      "date": "2025-04-30",
+      "type": "Business",
+      "description": "The team is refining a QR-code-based rewards system, incentivizing players to visit real-world locations for in-game and real-life benefits."
+    },
+    {
+      "title": "Early AI Prototyping: First NPC Racers Hit the Track",
+      "date": "2025-05-12",
+      "type": "Development",
+      "description": "AI-controlled karts are now being tested, focusing on dynamic racing behavior and competitive opponents that adapt to different track conditions."
+    },
+    {
+      "title": "Kart Turismo Explores WebGL for Instant Play Access",
+      "date": "2025-05-28",
+      "type": "Technology",
+      "description": "The team is experimenting with WebGL builds, allowing instant access to the game on both desktop and mobile browsers."
+    },
+    {
+      "title": "Mapbox Integration: Testing Colombo’s Terrain Data",
+      "date": "2025-06-10",
+      "type": "Development",
+      "description": "Using Mapbox data, developers are testing real terrain elevation and road layouts to ensure Colombo’s geography translates well into racing tracks."
+    },
+    {
+      "title": "First Community Brainstorming Session with Players",
+      "date": "2025-06-25",
+      "type": "Community",
+      "description": "Players and business owners joined the first discussion session, sharing ideas on how the game can best represent Colombo and support local businesses."
+    },
+    {
+      "title": "Testing Different Race Modes: Time Trials & Checkpoint Races",
+      "date": "2025-07-08",
+      "type": "Testing",
+      "description": "Developers are experimenting with time trials, checkpoint races, and elimination modes to expand gameplay variety."
+    },
+    {
+      "title": "Kart Turismo Collaborates with Local Schools",
+      "date": "2025-07-22",
+      "type": "Partnerships",
+      "description": "The team is discussing partnerships with Colombo’s schools to integrate educational and tourism awareness elements into the game."
+    },
+    {
+      "title": "New Business Partnership Model Under Development",
+      "date": "2025-08-05",
+      "type": "Business",
+      "description": "A tiered rewards system is being developed, allowing businesses to offer progressive discounts and exclusive in-game perks based on player engagement."
+    },
+    {
+      "title": "First Multiplayer Tests: Online Races Coming Soon",
+      "date": "2025-08-18",
+      "type": "Testing",
+      "description": "The first multiplayer tests are underway, bringing competitive online racing to Kart Turismo! Developers are fine-tuning netcode for smooth gameplay."
+    },
+    {
+      "title": "Kart Turismo Secures Initial Funding for Expansion",
+      "date": "2025-09-02",
+      "type": "Milestones",
+      "description": "Kart Turismo has secured its first round of funding, supporting expanded development, marketing efforts, and deeper business integrations."
+    }
+  ]
+  

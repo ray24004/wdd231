@@ -1,0 +1,38 @@
+[
+    {
+      "business_name": "Restaurante do Centro",
+      "supporter_level": "Bronze",
+      "business_segment": "Restaurant",
+      "neighborhood": "Centro",
+      "in_game_benefits": "Discount coupons for players who finish races nearby"
+    },
+    {
+      "business_name": "Turismo Colombo",
+      "supporter_level": "Silver",
+      "business_segment": "Tourism Agency",
+      "neighborhood": "Guaraituba",
+      "in_game_benefits": "Special guided tours for players, unlocking new in-game areas"
+    },
+    {
+      "business_name": "Oficina Silva Auto",
+      "supporter_level": "Gold",
+      "business_segment": "Auto Repair Shop",
+      "neighborhood": "Roça Nova",
+      "in_game_benefits": "In-game repair discounts and exclusive maintenance events"
+    },
+    {
+      "business_name": "Escola Monte Colombo",
+      "supporter_level": "Silver",
+      "business_segment": "Educational Institution",
+      "neighborhood": "Monte Castelo",
+      "in_game_benefits": "Educational challenges that offer in-game rewards for students"
+    },
+    {
+      "business_name": "Centro Cultural Eulina",
+      "supporter_level": "Platinum",
+      "business_segment": "Cultural Center",
+      "neighborhood": "Jardim Eulina",
+      "in_game_benefits": "Exclusive cultural events and art unlocks for players"
+    }
+  ]
+  
