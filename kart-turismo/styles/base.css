@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    max-width: none;
 }
 
 header {
@@ -63,6 +64,8 @@ header button {
 main {
     padding: 1rem;
     flex-grow: 1;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 footer {
@@ -71,4 +74,8 @@ footer {
     text-align: center;
     line-height: 2rem;
     padding: 2rem 1rem;
+}
+
+@media (min-width) {
+
 }

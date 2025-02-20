@@ -56,3 +56,8 @@ main li a {
     border-radius: 1rem;
     padding: 1rem;
 }
+
+main {
+    max-width: none;
+    margin: 0;
+}
