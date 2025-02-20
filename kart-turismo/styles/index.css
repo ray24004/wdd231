@@ -36,6 +36,9 @@ main ul {
     grid-template-columns: 1fr 1fr;
     place-items: center;
     gap: 1rem;
+
+    max-width: 300px;
+    margin: 1rem auto;
 }
 
 main div > a {
