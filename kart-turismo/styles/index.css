@@ -34,6 +34,7 @@ main ul {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     gap: 1rem;
 }
 
@@ -53,6 +54,5 @@ main li a {
     color: var(--alternate-font-color);
     text-decoration: none;
     border-radius: 1rem;
-    padding: 2rem 1rem;
-
+    padding: 1rem;
 }

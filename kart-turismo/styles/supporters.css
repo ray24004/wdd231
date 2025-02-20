@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, auto));
+    gap: 1rem;
+}
+
+h1 {
+    grid-column: 1/-1;    
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+article {
+    background-color: var(--terciary-color);
+    color: var(--font-color);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5rem;
+    border: .25rem solid var(--quaternary-color);
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+}
+
+article li {
+    padding: 1rem 0;
+}
+
+.level {
+    font-weight: bold;
+}
+
+.benefits {
+    font-style: italic;
+    line-height: 1.25rem;
+}

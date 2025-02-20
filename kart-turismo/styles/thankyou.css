@@ -1,0 +1,22 @@
+section {
+    background-color: var(--quaternary-color);
+    border-radius: .5rem;
+    padding: 1rem;
+    color: var(--alternate-font-color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    color: var(--alternate-font-color);
+}
+
+dt {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+dd {
+    margin: .25rem 0;
+}

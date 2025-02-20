@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+form button {
+    margin: 2rem 0;
+    width: 200px;
+
+    line-height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--alternate-font-color);
+
+    font-size: large;
+    align-self: center;
+}
+
+textarea {
+    height: 10rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+}

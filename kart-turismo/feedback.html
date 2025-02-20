@@ -16,9 +16,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/siteplan.css">
         <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/feedback.css">
 
         <script src="scripts/base.js" defer></script>
+        <script src="scripts/feedback.js" defer></script>
     </head>
     <body>
         <header>
@@ -37,9 +38,43 @@
             <button id="navButton">☰</button>
         </header>
         <main>
-            <h1>Send Feedback</h1>
+            <h1>Feedback</h1>
 
             <form action="thankyou.html" method="get">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+
+                <label for="email">Email (optional)</label>
+                <input type="email" name="email" id="email" autocomplete="email">
+    
+                <label for="age">Age (optional)</label>
+                <input type="number" name="age" id="age">
+                
+                <label for="city">City (optional)</label>
+                <input type="text" name="city" id="city" autocomplete="address-level2">
+                
+                <label for="neighborhood">Neighborhood (optional)</label>
+                <input type="text" name="neighborhood" id="neighborhood" autocomplete="address-level3">
+                
+                <label for="gameplay">How would you rate the overall experience? (1-5)</label>
+                <select id="gameplay" name="gameplay" required>
+                    <option value="" selected hidden>Select score...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                
+                <label for="enjoyMost">What did you enjoy the most?</label>
+                <textarea name="enjoyMost" id="enjoyMost" placeholder="Brief explain..." required></textarea>
+                
+                <label for="frustrateMost">What frustrated you the most?</label>
+                <textarea name="frustrateMost" id="frustrateMost" placeholder="Brief explain..." required></textarea>
+                
+                <label for="comments">Any additional comments or suggestions? (optional)</label>
+                <textarea name="comments" id="comments" placeholder="Feel free to share!"></textarea>
+    
                 <button type="submit">Send Feedback!</button>
             </form>
         </main>
